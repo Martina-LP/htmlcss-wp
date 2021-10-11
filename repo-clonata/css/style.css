@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 1% 4%;
+}
+/* Header */
+header {
+  height: 720px;
+  margin: 20px 0;
+}
+/* First section */
+.firstrow {
+  background-color: #c8a2c8;
+  height: 100px;
+  margin-bottom: 20px;
+}
+/* Second section */
+.secondrow {
+  background-color: #eeee90;
+  height: 600px;
+}
+/* Main */
+main {
+  background-color: #6397d0;
+  height: 600px;
+  margin: 10px 0;
+}
+/* First section */
+.menu {
+  background-color: #add8e6;
+  height: 100px;
+}
+/* Second section */
+.columns {
+  background-color: #add8e6;
+  height: 480px;
+  float: left;
+}
+/* First column */
+.left {
+  width: calc( 50% / 3 );
+  margin: 10px 10px 10px 0;
+}
+/* Second column */
+.middle {
+  width: 65.5%;
+  margin: 10px 0;
+}
+/* Third column */
+.right {
+  width: calc( 50% / 3 );
+  margin: 10px 0 10px 10px;
+}
+
+.content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Footer */
+footer {
+  background-color: #ad0afd;
+  height: 100px;
+}
